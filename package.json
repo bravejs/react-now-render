@@ -1,0 +1,37 @@
+{
+  "name": "react-now-render",
+  "version": "0.0.1",
+  "description": "Now render the React component",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.min.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bravejs/react-now-render.git"
+  },
+  "keywords": [
+    "react",
+    "render",
+    "now-render"
+  ],
+  "author": "shixianqin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bravejs/react-now-render/issues"
+  },
+  "homepage": "https://github.com/bravejs/react-now-render#readme",
+  "devDependencies": {
+    "@bravejs/library-cli": "^0.0.11",
+    "@types/react-dom": "^17.0.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
