@@ -19,6 +19,4 @@ declare function nowRender(render: Render): Unmount;
 
 declare function nowRender(options: Options): Unmount;
 
-export default nowRender;
-
 ```
